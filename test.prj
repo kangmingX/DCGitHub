@@ -1,0 +1,60 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="845390598" file="C:\Users\kxu\Downloads\addonContainedBackground-main\addonContainedBackground-main\test.prj" location="C:\Users\kxu\Downloads\addonContainedBackground-main\addonContainedBackground-main" name="test" target="target.mlapps" target-name="Package App">
+    <param.appname>test</param.appname>
+    <param.authnamewatermark>test</param.authnamewatermark>
+    <param.email>test@test.com</param.email>
+    <param.company>test</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>test</param.summary>
+    <param.description>test</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>43c8a016-a106-429e-a21a-9cb5dca28fee</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\apps\sample.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\kxu\Downloads\addonContainedBackground-main" name="addonContainedBackground-main" optional="false">C:\Users\kxu\Downloads\addonContainedBackground-main\addonContainedBackground-main</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
